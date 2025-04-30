@@ -30,7 +30,7 @@ def main():
     sorted_char_dict = get_sorted_dictionary(char_dict)
 
     print('============ BOOKBOT ============')
-    print('Analyzing book found at books/frankenstein.txt...')
+    print(f'Analyzing book found at {sys.argv[1]}...')
     print('----------- Word Count ----------')
     print(f'Found {len(num_words)} total words')
     print('--------- Character Count -------')
